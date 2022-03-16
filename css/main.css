@@ -1,0 +1,70 @@
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-rec{
+    padding: 18px 28px;
+    background-color: chartreuse;
+    color: midnightblue;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+
+li{
+    font-weight: 600;
+}
+
+.food{
+    width: 140px;
+    height: 140px;
+}
+
+ .banana{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    left: 300px;
+}
+
+.fish{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    left: 180px;
+}
+
+.hamburger{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 480px;
+}
+
+.ice-cream{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 290px;
+    left: 390px;
+}
+
+.cola{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 145px;
+    left: 630px;
+}
+
+
+.banana-active , .fish-active , .hamburger__active , .ice-cream__active , .cola-active{
+    display: block;
+}
